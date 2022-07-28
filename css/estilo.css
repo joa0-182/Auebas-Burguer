@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); /* font-family: 'Acme', sans-serif;*/
+
+html, body   /* Fundo e a base do site*/
+{
+    margin:0;
+    border:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(213, 126, 33);
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper /* é a centralização de informações do site, onde fica "aberto ambos os lados - direita e esqueda" */
+{
+    margin:0 auto;
+    background:rgb(240,244,228);
+    width:100%;
+    max-width:1200px;
+    height:auto;
+}
+
+header /* logo Aueba's Burger */
+{
+    display: grid;
+    grid-template-columns: 250px 5fr;
+}
+
+.menu-apoio /* sobre, franquias, cardápio */
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap:40px;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.item-menu-apoio /* cor de fundos do "sobre, franquias e cardápio" */
+{
+    background: rgb(230,170,85);
+    width:150px;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    border-radius:20px;
+    cursor: pointer;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-menu-apoio:hover /* efeito que muda a cor quando se passa o cursor no item-menu-apoio */
+{
+    background: rgb(255, 196, 0);
+    
+}
+
+.conteudo
+{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 250px 5fr;
+    font-family: 'Acme', sans-serif;
+}
+
+nav /* onde está os "combo kids, favoritos, especiais...etc" */
+{
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+    gap: 14px;
+    padding: 15px;
+    align-content: flex-start;
+}
+
+.menu /* cor do menu "nav" */
+{
+    background: rgb(230,170,85);
+    padding: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+.menu:hover
+{
+    background: rgb(255, 196, 0);
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: auto auto;
+    padding: 50px;
+}
+
+.span-colunas
+{
+    grid-column: 1 / span 2;
+}
+
+.resp
+{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+
+.logo
+{
+    padding:20px;
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(255, 255, 255);
+}
+
+main > div
+{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.lanche
+{
+    background-color: rgb(255, 81, 0);
+    display: inline;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+}
+
+.lanche:hover
+{
+    background-color: rgb(255, 179, 0);
+    cursor: pointer;
+}
+
+
+.preço
+{
+    background-color: rgb(255, 102, 0);
+    display: inline;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+}
+
+.icone
+{
+    font-size: 32pt;
+    padding: 5px;
+}
+
+.logo
+{
+    padding:20px;
+}
+
+.lanche
+{
+    background-color:  yellow;
+    width:auto;
+    height:auto;
+    font-size: 24pt;
+    font-weight: 700;
+    display: inline;
+}
+
+i
+{
+    font-style: normal;
+    font-size: 32pt;
+    margin-right: 20px;
+}
+
+.facebook
+{
+    color:#3366cc;
+}
+
+.instagram
+{
+    color:#993399;
+}
+
+.twitter
+{
+    color:#33ccff;
+}
+
+footer
+{
+    display:grid;
+    grid-template-columns: 5fr 250px;
+    grid-template-rows:auto auto;
+    background: rgb(250, 251, 244);
+    gap:10px;
+    padding:50px;
+}
+
+.span-colunas
+{
+    grid-column: 1 / span 2;
+}
+
+.centralizado
+{
+    text-align:center;
+}
+
+.email
+{
+    font-size: 22pt;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.aueba
+{
+    color:#686868;
+    padding-bottom: 20px;
+}
+
+.aueba-email
+{
+    font-weight:700;
+}
+
+.aueba-email:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.responsiva
+{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+.link
+{
+    text-decoration: none;
+}
+
+.link-rodape
+{
+    display: inline;
+    padding:10px;
+}
+
+.link-rodape:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
